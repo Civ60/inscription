@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+            background-color: black;
+            align-items: center;
+            margin: 500px;
+        }
+
+        input {
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form action="formulaire.php" method="post">
+            <input type="text" name="nom" placeholder="Votre nom">
+            <input type="text" name="prenom" placeholder="Votre prénom">
+            <input type="text" name="numero" placeholder="Votre numero">
+            <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
